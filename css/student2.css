@@ -26,11 +26,11 @@ body{
     width: 100px;
  } 
 
- li::nth-child(3){
-    border: 5px dashed limegreen;
+ li:nth-child(3){
+    border: 5px dashed red;
     border-radius: 20px;
     padding: 100px;
-    background-color: purple;
+    background-color: limegreen;
     margin-top: 15px;
     width: 50px;
  } 
@@ -52,7 +52,7 @@ body{
     font-weight: 700;
  }
 
- p::nth-child(2) {
+ p:nth-child(2) {
     border: 5px dashed paleturquoise;
     border-radius: 50px;
     background-color: aquamarine; 
